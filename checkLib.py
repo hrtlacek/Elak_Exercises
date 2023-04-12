@@ -59,12 +59,12 @@ def checkEx07(fun):
     corr = np.alltrue(np.isclose(corrVal, Y))
     if not corr:
         with plt.xkcd():
-            plt.plot(corrVal,'k', label = 'What it should look like')
-            plt.plot(Y, 'r--', label= 'What you are doing')
+            plt.plot(x,corrVal,'k', label = 'What it should look like')
+            plt.plot(x,Y, 'r--', label= 'What you are doing')
             plt.title ('Something seems off..')
 
     else:
-        plt.plot(Y, 'g', label= 'Best Hard Clipper ever')
+        plt.plot(x,Y, 'g', label= 'Best Hard Clipper ever')
         plt.title('Success!')
         plt.grid()
         plt.xlabel('$x$')
