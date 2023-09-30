@@ -11,3 +11,11 @@ Start your own jupyter lab, navigate to the folder you downloaded and do the exe
 
 Yes, the Solutions are also in this repository. Why would you look at them before giving the puzzles a go?
 
+
+
+## Other Exercise ideas
+- Synthesize the 'sound of wind'
+- Produce the graph in figure 1.3, page 13 in **'Kleiner, M. (2011). Acoustics and audio technology. J. Ross Publishing'.
+- make a max/msp or python program from scratch the calculates the 'zero crossing rate'. Dont use external libraries (other than numpy, or something to load the audio file etc. or to compare with your results)
+- Reproduce this in python ('Time-dependent amplitudes' section in wikipedia artcle 'additive synthesis')https://en.wikipedia.org/wiki/Additive_synthesis#/media/File:Harmonic_additive_synthesis_spectrum.png
+
